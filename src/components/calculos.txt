@@ -1,0 +1,9 @@
+/* import { boeing, airbus } from "../data/aircraftData";
+import aeroportos from "../data/airportsData";
+
+const Gerador = () => {
+  return ()
+}
+
+export default Gerador;
+ */

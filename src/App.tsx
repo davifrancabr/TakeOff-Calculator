@@ -1,12 +1,13 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import { Link, Routes, Route } from "react-router-dom";
+import TakeoffPerformanceCalculator from "./pages/TakeoffPerformanceCalculator";
 
 function App() {
   return (
-    <div className="App">
-      <p>Hello</p>
-    </div>
+    <>
+      <Routes>
+        <Route index path="/" element={<TakeoffPerformanceCalculator />} />
+      </Routes>
+    </>
   );
 }
 
